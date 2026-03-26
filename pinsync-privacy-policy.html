@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>PinSync — Privacy Policy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Fraunces:wght@700;900&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #faf9f7;
+    color: #1a1a1a;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  header {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo-dots { display: flex; gap: 4px; }
+  .dg { width: 11px; height: 11px; border-radius: 3px; background: #96BF48; }
+  .dr { width: 11px; height: 11px; border-radius: 3px; background: #E60023; }
+  header strong { font-size: 15px; font-weight: 700; margin-left: 6px; }
+  header span { font-size: 10px; color: #aaa; letter-spacing: 2px; margin-left: 8px; }
+
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 40px 80px;
+  }
+
+  .tag {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #E60023;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #111;
+    margin-bottom: 8px;
+    line-height: 1.15;
+  }
+
+  .meta {
+    font-size: 11px;
+    color: #aaa;
+    margin-bottom: 40px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  h2 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    margin: 32px 0 10px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  p { color: #444; margin-bottom: 12px; font-size: 13px; }
+
+  ul { padding-left: 20px; color: #555; margin-bottom: 12px; }
+  li { margin-bottom: 6px; font-size: 13px; }
+
+  .highlight {
+    background: #fff8f0;
+    border: 1px solid #f0e0c0;
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin: 16px 0;
+    font-size: 12px;
+    color: #7a5a30;
+  }
+
+  footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid #e5e5e5;
+    font-size: 11px;
+    color: #bbb;
+    text-align: center;
+  }
+
+  a { color: #E60023; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-dots"><div class="dg"></div><div class="dr"></div></div>
+  <strong>PinSync</strong>
+  <span>SHOPIFY × PINTEREST</span>
+</header>
+
+<main>
+  <div class="tag">● LEGAL</div>
+  <h1>Privacy Policy</h1>
+  <div class="meta">
+    Last updated: March 26, 2026 &nbsp;·&nbsp; Effective immediately
+  </div>
+
+  <h2>1. Overview</h2>
+  <p>PinSync ("the App", "we", "us") is a private tool used exclusively by the store owner to automatically publish Shopify product listings as Pinterest pins. This policy explains what data is accessed, how it is used, and how it is protected.</p>
+
+  <h2>2. Data We Access</h2>
+  <p>PinSync accesses the following data from your Shopify store via the Admin API:</p>
+  <ul>
+    <li><strong>Product titles</strong> — used as the Pinterest pin title</li>
+    <li><strong>Product images</strong> — used as the Pinterest pin image</li>
+    <li><strong>Product prices</strong> — included in the pin description</li>
+    <li><strong>Product handles / URLs</strong> — used as the destination link on the pin</li>
+  </ul>
+  <div class="highlight">
+    ⚠️ PinSync does <strong>not</strong> access customer data, order history, payment information, or any personal information about your customers.
+  </div>
+
+  <h2>3. Data We Do Not Collect</h2>
+  <ul>
+    <li>Customer names, emails, or contact details</li>
+    <li>Order data or transaction history</li>
+    <li>Financial or billing information</li>
+    <li>Any personally identifiable information (PII)</li>
+    <li>Inventory levels or supplier data</li>
+  </ul>
+
+  <h2>4. How Data Is Used</h2>
+  <p>Product data fetched from Shopify is used solely for the purpose of creating Pinterest pins on the connected Pinterest Business account owned and operated by the same store owner. Data is:</p>
+  <ul>
+    <li>Transmitted directly to the Pinterest API (v5) via HTTPS</li>
+    <li>Not stored on any third-party server</li>
+    <li>Not shared with any other parties</li>
+    <li>Not used for advertising, analytics, or profiling</li>
+  </ul>
+
+  <h2>5. Data Storage & Retention</h2>
+  <p>PinSync operates as a client-side browser application. No product data is stored in a database or on a server. All data processing occurs in the user's browser session and is discarded when the session ends.</p>
+  <p>API credentials (Shopify token, Pinterest token) are entered by the store owner and are only used to make API calls during active sessions. They are not transmitted to or stored by any PinSync service.</p>
+
+  <h2>6. Third-Party Services</h2>
+  <p>PinSync connects to the following third-party APIs on behalf of the store owner:</p>
+  <ul>
+    <li><strong>Shopify Admin API</strong> — to read product data. Subject to <a href="https://www.shopify.com/legal/privacy" target="_blank">Shopify's Privacy Policy</a>.</li>
+    <li><strong>Pinterest API v5</strong> — to create pins. Subject to <a href="https://policy.pinterest.com/privacy-policy" target="_blank">Pinterest's Privacy Policy</a>.</li>
+  </ul>
+
+  <h2>7. Security</h2>
+  <p>All API communications are made over HTTPS (TLS). API tokens entered into the app are only used in-memory during the active browser session. Store owners are responsible for keeping their API credentials secure and revoking them if compromised.</p>
+
+  <h2>8. GDPR & CCPA</h2>
+  <p>PinSync does not process any personal data of end-users, customers, or third parties. As such, GDPR and CCPA obligations regarding personal data do not apply to PinSync's operation. The app only processes publicly available product catalog data belonging to the store owner.</p>
+
+  <h2>9. Children's Privacy</h2>
+  <p>PinSync is a business tool intended solely for use by store owners and operators. It is not directed at and does not knowingly collect data from children under the age of 13.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. The "Last updated" date at the top of this page will reflect any changes. Continued use of the App after changes constitutes acceptance of the revised policy.</p>
+
+  <h2>11. Contact</h2>
+  <p>If you have any questions about this Privacy Policy, please contact the app owner at the email address registered with your Shopify account.</p>
+
+  <footer>
+    © 2026 PinSync · Private Shopify Application · All rights reserved
+  </footer>
+</main>
+
+</body>
+</html>
